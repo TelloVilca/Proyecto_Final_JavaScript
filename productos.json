@@ -1,0 +1,86 @@
+[
+    {
+        "name": "LAPTOP HP 15-DY2059LA INTEL CORE I3 8GB RAM 256GB SSD 15.6''",
+        "price": "2099",
+        "priceEnd": "1750",
+        "offer": "-0.50",
+        "image": "contenido_pagina/imagenes_productos/Laptop hp.jpg"
+    },
+    {
+        "name": "LAPTOP ASUS X515 X515EA-EJ921W INTEL CORE I5 1135G7 8GB RAM 512GB",
+        "price": "3299",
+        "priceEnd": "2999",
+        "offer": "-0.10",
+        "image": "contenido_pagina/imagenes_productos/Laptop Asus corei5.jpg"
+    },
+    {
+        "name": "LAPTOP HP 15-EF2501LA AMD RYZEN 5 16GB RAM 512GB SSD 15.6''",
+        "price": "2699",
+        "priceEnd": "2199",
+        "offer": "-0.19",
+        "image": "contenido_pagina/imagenes_productos/Laptop HP ryzen 5.jpg"
+    },
+    {
+        "name": "LAPTOP ACER ASPIRE 5 CORE I5 1135G7 8GB 512GB SSD 14\" W11 OCTAVA GENERACION",
+        "price": "2899",
+        "priceEnd": "1699",
+        "offer": "-0.41",
+        "image": "contenido_pagina/imagenes_productos/Laptop ACER Core i5.jpg"
+    },
+    {
+        "name": "LAPTOP LENOVO IDEAPAD 3I INTEL CORE I3 8GB 256 GB SSD 15.6\"",
+        "price": "2299",
+        "priceEnd": "1950",
+        "offer": "-0.10",
+        "image": "contenido_pagina/imagenes_productos/Laptop Lenovo Corei3.jpg"
+    },
+    {
+        "name": "LAPTOP HP 14-DQ2510LA INTEL CORE I3 8GB RAM 512GB SSD 14''",
+        "price": "2199",
+        "priceEnd": "1870",
+        "offer": "-0.20",
+        "image": "contenido_pagina/imagenes_productos/Laptop HP Core i3.jpg"
+    },
+    {
+        "name": "LAPTOP ACER NITRO 5 INTEL CORE I5 8GB RAM 512GB SSD 15.6'' FHD IPS 144HZ GTX 1650",
+        "price": "4559",
+        "priceEnd": "2599",
+        "offer": "-0.43",
+        "image": "contenido_pagina/imagenes_productos/Laptop ACER Gamer core i5.jpg"
+    },
+    {
+        "name": "LAPTOP ASUS TUF DASH F15 FX517ZM-HN001W INTEL CORE I7 12VA GEN 16GB SSD 15.6\"",
+        "price": "7499",
+        "priceEnd": "6099",
+        "offer": "-0.19",
+        "image": "contenido_pagina/imagenes_productos/Laptop ASUS TUF.jpg"
+    },
+    {
+        "name": "LAPTOP VICTUS 16-D0506LA INTEL CORE I5 8GB 512GB SSD 16.1\"",
+        "price": "3059",
+        "priceEnd": "2550",
+        "offer": "-0.20",
+        "image": "contenido_pagina/imagenes_productos/Laptop Victus COre i5.jpg"
+    },
+    {
+        "name": "LAPTOP GAMER ASUS TUF F1 FX506LHB-HN323UW INTEL CORE I5 10300H 512GB''",
+        "price": "4000",
+        "priceEnd": "3750",
+        "offer": "-0.30",
+        "image": "contenido_pagina/imagenes_productos/Latop ASUS Gamer Core i5.jpg"
+    },
+    {
+        "name": "ASUS VIVOBOOK GO 15 E1504FA-L1112W AMD RYZEN 5 7520U 8GB RAM 512GBSSD 15.6\"",
+        "price": "3099",
+        "priceEnd": "2699",
+        "offer": "-0.13",
+        "image": "contenido_pagina/imagenes_productos/Laptop ASUS ryzen 5.jpg"
+    },
+    {
+        "name": "LAPTOP LENOVO IDEAPAD 1 AMD RYZEN 3 7320U 16GB 256GB SSD 15,6\"",
+        "price": "2699",
+        "priceEnd": "1349",
+        "offer": "-0.50",
+        "image": "contenido_pagina/imagenes_productos/Laptop Lenovo ryzen 3.jpg"
+    }
+]

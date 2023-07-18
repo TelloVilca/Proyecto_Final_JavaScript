@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!--* LINK DE GOOGLE FONTS ICONS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!--* LINK DE BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+  <!--* LINK DE CSS  -->
+  <link rel="stylesheet" href="Css/style.css" />
+
+</head>
+
+
+<body>
+
+  <!--* ENCABESADO DE LA PAGINA  -->
+  <header class="header container-fluid">
+    <div class="logo">
+      <a href="registro.html">
+        <img src="contenido_pagina/imagenes_contenido/Logo de empresa.jpg" alt="logo" />
+      </a>
+    </div>
+
+    <nav class="listado">
+      <ul>
+        <li><a href="#primera_fila">INICIO</a></li>
+        <li><a href="#segunda_fila">CENTRO</a></li>
+        <li><a href="#tercera_fila">FINAL</a></li>
+      </ul>
+    </nav>
+    <nav class="enlaces_registros">
+      <ul>
+        <li><a href="contenido_pagina/inicio_sesion.html">INICIAR SECCION</a></li>
+        <li><a href="registro.html">REGISTRATE</a></li>
+      </ul>
+    </nav>
+
+    <div class="compra">
+      <a href="#">
+        <i class="material-icons" data-bs-toggle="modal" data-bs-target="#exampleModal">shopping_cart</i>
+        <!--* MODAL -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  COMPRA DE PRODUCTOS
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <div id="carrito">
+                  <img id="carritoVacio" src="contenido_pagina/imagenes_contenido/Imagen_compras.jpg" class="img-fluid mx-auto d-block"
+                    alt="carro_vacio" />
+                  <figcaption class="text-center mt-3">
+                    Actualmente no cuenta con ningun producto.
+                  </figcaption>
+                </div>
+              </div>
+              <div class="modal-footer icono_carro">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  <i class="material-icons icono_compra">remove_shopping_cart</i>
+                  <span class="carro_compras">Regresar</span>
+                </button>
+                <button type="button" class="btn btn-primary">Cotizar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!--* INICIO DE CONTENIDO PRODUCTOS-->
+  <h1 class="titulo" id="productos">Productos</h1>
+
+  <div class="fila">
+
+    <!--* PRODUCTOS GENERALES  -->
+    
+  </div>
+
+  <!--* FINAL DE CONTENIDO PRODUCTOS-->
+
+
+
+  <!--* INICIO PIE DE PAGINA -->
+  <footer class="footer" id="pie_pagina">
+    <p>
+      Creador: Fabricio Tello Vilca <br />
+      Empresa: TELLO & ELECTRONIC
+    </p>
+  </footer>
+  <!--* FINAL PIE DE PAGINA -->
+
+
+  <!--* CODIGO JAVASCRIPT  BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <!--* CODIGO JAVASCRIP -->
+  <script src="JavaScript/carritoCompras.js"></script>
+  <script src="JavaScript/construccionProductos.js"></script>
+  <script src="JavaScript/informacionRegistroInicio.js"></script>
+  <script src="JavaScript/mainProductos.js"></script>
+  
+
+</body>
+
+</html>
